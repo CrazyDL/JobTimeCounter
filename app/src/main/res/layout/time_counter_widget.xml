@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/time_start_in_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/time_start_in"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@id/time_start_in_text_view"
+        android:text="00:00"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/workout_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_start_in_text_view"
+        android:layout_alignParentStart="true"
+        android:text="Worked 0h 0m"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/stop_or_start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/workout_text_view"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/workout_text_view"
+        android:background="@drawable/button_background"
+        android:text="@string/start"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+</RelativeLayout>

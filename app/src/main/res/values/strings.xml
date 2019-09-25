@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JobTimeCounter</string>
+    <string name="start_countdown">Начать отсчет</string>
+    <string name="stop_countdown">Остановить отсчет</string>
+    <string name="today_day_off">Сегодня выходной</string>
+    <string name="worked_out">Отработано:</string>
+    <string name="hour">ч</string>
+    <string name="min">мин</string>
+    <string name="workout_for_week">Отработано за неделю: %1$d ч %2$d мин</string>
+    <string name="time_start_in">Started</string>
+    <string name="time_stop_in">Stopped</string>
+    <string name="workout_widget">Worked %1$dh %2$dm</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="day_off">Day off</string>
+    <string-array name="days_of_week">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+</resources>
